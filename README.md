@@ -1,6 +1,5 @@
 # 🔭 GitHub Repository Explorer
-
-> A sleek, developer-focused web app to search, filter, and explore GitHub repositories in real time — powered by the GitHub REST API.
+A sleek, developer-focused web app to search, filter, and explore GitHub repositories in real time — powered by the GitHub REST API.
 
 ![Project Status](https://img.shields.io/badge/status-in--progress-yellow)
 ![Milestone](https://img.shields.io/badge/milestone-1%20%E2%80%94%20Planning-blue)
