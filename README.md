@@ -106,7 +106,7 @@ npx serve .
 | Milestone | Description | Deadline | Status |
 |---|---|---|---|
 | 1 | Project setup, idea finalization, README | 23rd March | ✅ Done |
-| 2 | API integration, dynamic data display, responsiveness | 1st April | 🔲 Pending |
+| 2 | API integration, dynamic data display, responsiveness | 1st April | ✅ Done |
 | 3 | Search, filter, sort, dark mode, favorites | 8th April | 🔲 Pending |
 | 4 | Final cleanup, documentation, deployment | 10th April | 🔲 Pending |
 
