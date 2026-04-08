@@ -44,7 +44,6 @@ main {
     width: 90%;
     max-width: 1100px;
     margin: 30px auto;
-    /* margin: 2rem auto; tried this but used px instead */
 }
 
 .search-bar {
@@ -81,9 +80,9 @@ body.dark #search-input {
 }
 
 body.dark #search-btn {
-  background-color: #21262d;
-  border-color: #30363d;
-  color: #c9d1d9;
+    background-color: #21262d;
+    border-color: #30363d;
+    color: #c9d1d9;
 }
 
 .controls {
@@ -161,7 +160,7 @@ body.dark #error-msg {
 }
 
 .hidden {
-    display: none;
+    display: none !important;
 }
 
 #repo-grid {
@@ -178,6 +177,10 @@ body.dark #error-msg {
     margin-bottom: 30px;
 }
 
+#favorites-grid:empty {
+    display: none;
+}
+
 .repo-card {
     background-color: white;
     border: 1px solid #e1e4e8;
@@ -186,10 +189,11 @@ body.dark #error-msg {
     display: flex;
     flex-direction: column;
     gap: 8px;
+    transition: box-shadow 0.2s;
 }
 
 .repo-card:hover {
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 body.dark .repo-card {
@@ -252,6 +256,11 @@ body.dark .card-meta {
     font-weight: bold;
     background-color: #e1e4e8;
     color: #24292f;
+}
+
+body.dark .lang-badge {
+    background-color: #30363d;
+    color: #c9d1d9;
 }
 
 #favorites-section h2 {

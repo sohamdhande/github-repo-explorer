@@ -1,67 +1,66 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GitHub Repo Explorer</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <h1>🔭 GitHub Repo Explorer</h1>
-      <button id="theme-toggle" onclick="toggleTheme()">Dark mode</button>
-    </header>
 
-    <main>
-      <section class="search-bar">
-        <input
-          type="text"
-          id="search-input"
-          placeholder="Search repositories..."
-        />
-        <button id="search-btn" onclick="handleSearch()">Search</button>
-      </section>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GitHub Repo Explorer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-      <section class="controls">
-        <select id="sort-select" onchange="handleFilterChange()">
-          <option value="stars">Sort: Stars</option>
-          <option value="forks">Sort: Forks</option>
-          <option value="updated">Sort: Last Updated</option>
-        </select>
+<body>
+  <header>
+    <h1>🔭 GitHub Repo Explorer</h1>
+    <button id="theme-toggle" onclick="toggleTheme()">Dark mode</button>
+  </header>
 
-        <select id="order-select" onchange="handleFilterChange()">
-          <option value="desc">Order: Descending</option>
-          <option value="asc">Order: Ascending</option>
-        </select>
+  <main>
+    <section class="search-bar">
+      <input type="text" id="search-input" placeholder="Search repositories..." />
+      <button id="search-btn" onclick="handleSearch()">Search</button>
+    </section>
 
-        <select id="language-filter" onchange="handleFilterChange()">
-          <option value="">All Languages</option>
-          <option value="JavaScript">JavaScript</option>
-          <option value="Python">Python</option>
-          <option value="Java">Java</option>
-          <option value="C++">C++</option>
-          <option value="TypeScript">TypeScript</option>
-          <option value="Go">Go</option>
-          <option value="Rust">Rust</option>
-        </select>
-      </section>
+    <section class="controls">
+      <select id="sort-select" onchange="handleFilterChange()">
+        <option value="stars">Sort: Stars</option>
+        <option value="forks">Sort: Forks</option>
+        <option value="updated">Sort: Last Updated</option>
+      </select>
 
-      <div id="loading" class="hidden">Loading...</div>
+      <select id="order-select" onchange="handleFilterChange()">
+        <option value="desc">Order: Descending</option>
+        <option value="asc">Order: Ascending</option>
+      </select>
 
-      <div id="error-msg" class="hidden"></div>
+      <select id="language-filter" onchange="handleFilterChange()">
+        <option value="">All Languages</option>
+        <option value="JavaScript">JavaScript</option>
+        <option value="Python">Python</option>
+        <option value="Java">Java</option>
+        <option value="C++">C++</option>
+        <option value="TypeScript">TypeScript</option>
+        <option value="Go">Go</option>
+        <option value="Rust">Rust</option>
+      </select>
+    </section>
 
-      <section id="repo-grid"></section>
+    <div id="loading" class="hidden">Loading...</div>
 
-      <div id="favorites-section">
-        <h2>❤️ Favorites</h2>
-        <section id="favorites-grid"></section>
-      </div>
-    </main>
+    <div id="error-msg" class="hidden"></div>
 
-    <script src="storage.js"></script>
-    <script src="api.js"></script>
-    <script src="filters.js"></script>
-    <script src="ui.js"></script>
-    <script src="app.js"></script>
-  </body>
+    <section id="repo-grid"></section>
+
+    <div id="favorites-section">
+      <h2>❤️ Favorites</h2>
+      <section id="favorites-grid"></section>
+    </div>
+  </main>
+
+  <script src="storage.js"></script>
+  <script src="api.js"></script>
+  <script src="filters.js"></script>
+  <script src="ui.js"></script>
+  <script src="app.js"></script>
+</body>
+
 </html>

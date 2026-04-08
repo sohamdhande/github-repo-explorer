@@ -107,7 +107,7 @@ npx serve .
 |---|---|---|---|
 | 1 | Project setup, idea finalization, README | 23rd March | ✅ Done |
 | 2 | API integration, dynamic data display, responsiveness | 1st April | ✅ Done |
-| 3 | Search, filter, sort, dark mode, favorites | 8th April | 🔲 Pending |
+| 3 | Search, filter, sort, dark mode, favorites | 8th April | ✅ Done |
 | 4 | Final cleanup, documentation, deployment | 10th April | 🔲 Pending |
 
 ---
