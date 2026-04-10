@@ -1,8 +1,8 @@
 # 🔭 GitHub Repository Explorer
 A sleek, developer-focused web app to search, filter, and explore GitHub repositories in real time — powered by the GitHub REST API.
 
-![Project Status](https://img.shields.io/badge/status-in--progress-yellow)
-![Milestone](https://img.shields.io/badge/milestone-1%20%E2%80%94%20Planning-blue)
+![Project Status](https://img.shields.io/badge/status-completed-brightgreen)
+![Milestone](https://img.shields.io/badge/milestone-4%20%E2%80%94%20Final-blue)
 ![API](https://img.shields.io/badge/API-GitHub%20REST%20v3-181717?logo=github)
 
 ---
@@ -26,9 +26,9 @@ This project was built as part of a graded JavaScript + API integration assignme
 
 ---
 
-## ✨ Planned Features
+## ✨ Features
 
-### Core Features (Required)
+### Core Features
 | Feature | Description | HOF Used |
 |---|---|---|
 | 🔍 **Search** | Search repos by keyword, topic, or author | `filter()`, `map()` |
@@ -38,7 +38,7 @@ This project was built as part of a graded JavaScript + API integration assignme
 | ❤️ **Favorites** | Save/unsave repos to a personal favorites list | `find()`, `filter()` |
 | 🌙 **Dark / Light Mode** | Toggle between dark and light themes | — |
 
-### Bonus Features (Planned)
+### Bonus Features
 | Feature | Description |
 |---|---|
 | ⏱️ **Debouncing** | Prevents excessive API calls on each search keystroke |
@@ -62,7 +62,7 @@ This project was built as part of a graded JavaScript + API integration assignme
 
 ---
 
-## 📁 Project Structure (Planned)
+## 📁 Project Structure
 ```
 github-repo-explorer/
 ├── index.html          # Main HTML structure
@@ -108,7 +108,7 @@ npx serve .
 | 1 | Project setup, idea finalization, README | 23rd March | ✅ Done |
 | 2 | API integration, dynamic data display, responsiveness | 1st April | ✅ Done |
 | 3 | Search, filter, sort, dark mode, favorites | 8th April | ✅ Done |
-| 4 | Final cleanup, documentation, deployment | 10th April | 🔲 Pending |
+| 4 | Final cleanup, documentation, deployment | 10th April | ✅ Done |
 
 ---
 
@@ -133,9 +133,9 @@ const results = repos.filter(repo =>
 
 ## 🌍 Deployment
 
-The project will be deployed using **GitHub Pages** or **Vercel** before the final submission on 10th April.
+The project is deployed using **GitHub Pages**.
 
-Live link will be added here once deployed.
+🔗 **Live:** [https://sohamdhande.github.io/github-repo-explorer/](https://sohamdhande.github.io/github-repo-explorer/)
 
 ---
 
