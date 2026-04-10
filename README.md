@@ -133,9 +133,9 @@ const results = repos.filter(repo =>
 
 ## 🌍 Deployment
 
-The project is deployed using **GitHub Pages**.
+The project is deployed using **Netlify**.
 
-🔗 **Live:** [https://sohamdhande.github.io/github-repo-explorer/](https://sohamdhande.github.io/github-repo-explorer/)
+🔗 **Live:** [https://sohamdhande-github-repo-explorer.netlify.app](https://sohamdhande-github-repo-explorer.netlify.app)
 
 ---
 
